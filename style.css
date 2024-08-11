@@ -18,6 +18,8 @@
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+    background-position-x: 50%;
+    background-position-y: 100%;
     background-position: center bottom;
     padding: 0 10% 5%;
 }
