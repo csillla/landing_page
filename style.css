@@ -68,11 +68,11 @@ body {
     font-size: calc(90px + 5vw);
     color: rgb(125, 175, 216);
     line-height: .85em;
-    margin: 0 0 2vw;
+    margin: 0 0 2vh;
 }
 
 .normalbig {
-    font-size: calc(18px + .6vw);
+    font-size: calc(6px + 2vh + .1vw);
     font-weight: 600;
     color: rgb(31, 69, 100);
     margin: calc(10px + .4vw) 0;
@@ -83,7 +83,7 @@ body {
     border-color: rgb(54, 91, 121);
     border: 2px solid rgb(31, 69, 100);
     padding: calc(8px + .4vw);
-    font-size: calc(18px + .6vw);
+    font-size: calc(6px + 2vh + .1vw);
     font-family: Swiss, Georgia, 'Times New Roman', Times, serif;
     color: rgb(31, 69, 100);
     text-decoration: none;
@@ -102,7 +102,7 @@ html {
 
 .graphic {
     width: 20vw;
-    max-width: 20vh;
+    max-width: 15vh;
 }
 
 .clouds {
@@ -138,10 +138,6 @@ html {
 .container {
     display: flex;
     gap: calc(36px + 3vw);
-}
-
-.card {
-    max-width: calc(36px + 3vw + 20vh);
 }
 
 .weather {
