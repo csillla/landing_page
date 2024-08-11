@@ -1,0 +1,173 @@
+@font-face {
+    font-family: Stanley;
+    src: url(fonts/Stanley.otf);
+}
+
+@font-face {
+    font-family: Swiss;
+    src: url(fonts/Swiss\ 721\ BT.ttf);
+}
+
+.planeimage {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: center;
+    align-items: flex-start;
+    background-image: url('images/sunny.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center bottom;
+    padding: 0 10% 5%;
+}
+
+.startpage {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    padding: 10px 10%;
+    display: flex;
+    gap: 2.5vw;
+    background-color: white;
+    align-items: center;
+    color: rgb(31, 69, 100);
+}
+
+a {
+    text-decoration: none;
+    color: rgb(31, 69, 100);
+    font-size: calc(16px + .2vw);
+}
+
+.logo-sun {
+    height: 5vh;
+    width: 5.9vh;      /* 4x4.7 az eredeti */
+    background-size: cover;
+    background-image: url(images/sunlogo.svg);
+    margin: 0 auto 0 0;
+    filter: brightness(0) saturate(100%) invert(23%) sepia(7%) saturate(4170%) hue-rotate(166deg) brightness(97%) contrast(92%);
+}
+
+.logo-sun:hover, .logo-sun:focus {
+    filter: brightness(0) saturate(100%) invert(67%) sepia(73%) saturate(338%) hue-rotate(179deg) brightness(88%) contrast(91%);
+}
+
+body {
+    margin: 0;
+    font-family: Swiss, Georgia, 'Times New Roman', Times, serif;
+    font-size: calc(14px + .4vw);
+}
+
+.big {
+    font-size: calc(90px + 5vw);
+    color: rgb(125, 175, 216);
+    line-height: .85em;
+    margin: 0 0 2vw;
+}
+
+.normalbig {
+    font-size: calc(18px + .6vw);
+    font-weight: 600;
+    color: rgb(31, 69, 100);
+    margin: calc(10px + .4vw) 0;
+}
+
+.button {
+    background-color: transparent;
+    border-color: rgb(54, 91, 121);
+    border: 2px solid rgb(31, 69, 100);
+    padding: calc(8px + .4vw);
+    font-size: calc(18px + .6vw);
+    font-family: Swiss, Georgia, 'Times New Roman', Times, serif;
+    color: rgb(31, 69, 100);
+    text-decoration: none;
+    font-weight: 300;
+}
+
+.button:hover {
+    background-color: rgb(31, 69, 100);
+    border-color: transparent;
+    color: white;
+}
+
+html {
+    font-family: Swiss, 'Times New Roman', Times, serif;
+}
+
+.graphic {
+    width: 20vw;
+    max-width: 180px;
+}
+
+.clouds {
+    min-height: 70vh; 
+    text-align: center;
+    box-sizing: border-box;
+    padding: 5vh 5%;
+    display: flex;
+    flex-direction: column;
+}
+
+.arrow {
+    color: rgb(199, 199, 199);
+    margin-top: auto;
+    padding-top: 6vh;
+    font-size: calc(30px + 1vw);
+}
+
+.wrap{
+    gap: calc(36px + 3vw);
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.cloudtext {
+    font-size: calc(30px + 1vw);
+    text-align: center;
+    padding-bottom: 3vh;
+    color: rgb(161, 81, 81);
+}
+
+.container {
+    display: flex;
+    gap: calc(36px + 3vw);
+}
+
+.card {
+    max-width: calc(396px + 3vw);
+}
+
+.weather {
+    text-align: center;
+    font-size: calc(18px + .6vw);
+    color: rgb(161, 81, 81);
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+.quote {
+    min-height: 30vh;
+    background-color: rgb(221, 202, 31);
+    font-size: calc(16px + .5vw);
+    box-sizing: border-box;
+    padding: 5vh 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.author {
+    align-self: flex-end;
+    font-weight: 600;
+    font-size: calc(14px + .3vw);
+    padding-top: 1em;
+}
+
+.proba {
+    font-family: Stanley,'Times New Roman', sans-serif;
+}

@@ -1,0 +1,68 @@
+@font-face {
+    font-family: Stanley;
+    src: url(../fonts/Stanley.otf);
+}
+
+@font-face {
+    font-family: Swiss;
+    src: url(../fonts/Swiss\ 721\ BT.ttf);
+}
+
+body {
+    background-color: rgb(196, 105, 105);
+    height: 100vh;
+    color: white;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 10vh;
+    box-sizing: border-box;
+}
+
+.simple{
+    color: white;
+    font-size: calc(55px + 4vw);
+    line-height: .85em;
+}
+
+.header {
+    padding: 10px 10%;
+    display: flex;
+    gap: 2.5vw;
+    background-color: rgb(196, 105, 105);
+    align-items: center;
+}
+
+.logo-sun {
+    height: 5vh;
+    width: 5.9vh;  
+    background-size: cover;
+    background-image: url(../images/sunlogo.svg);
+    margin: 0 auto 0 0;
+    filter: brightness(0) saturate(100%) invert(35%) sepia(4%) saturate(7423%) hue-rotate(324deg) brightness(84%) contrast(87%);
+    padding: 0;
+}
+
+.logo-sun:hover, .logo-sun:focus {
+    filter: brightness(0) saturate(100%) invert(100%) sepia(99%) saturate(2%) hue-rotate(54deg) brightness(107%) contrast(101%);
+}
+
+.side {
+    color: rgb(153, 73, 73);
+    font-size: calc(16px + .5vw);
+    font-weight: 400;
+    font-family: Swiss, 'Times New Roman', Times, serif;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 10%;
+    flex: 1;
+    gap: calc(20px + 1vw);
+}
+
+.proba {
+    font-family: Stanley,'Times New Roman', sans-serif;
+}
